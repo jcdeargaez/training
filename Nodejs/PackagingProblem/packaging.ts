@@ -1,5 +1,3 @@
-'use strict';
-
 const packs: number[] = [8, 6, 3];
 
 export function computePackaging(t: number): string {

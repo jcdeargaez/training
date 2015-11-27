@@ -1,4 +1,3 @@
-'use strict';
 var packs = [8, 6, 3];
 function computePackaging(t) {
     var msg;

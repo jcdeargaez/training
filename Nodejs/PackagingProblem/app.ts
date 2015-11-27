@@ -1,7 +1,5 @@
 /// <reference path="./typings/node/node.d.ts"/>
 
-'use strict';
-
 import http = require('http');
 import url = require('url');
 import packaging = require('./packaging');
@@ -17,4 +15,4 @@ let server = http.createServer((req, res) => {
 
 server.listen(8000);
 
-console.log('Running on port 8000 ');
+console.log('Running on port 8000');
